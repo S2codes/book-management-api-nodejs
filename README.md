@@ -1,18 +1,19 @@
 # book-management-api-nodejs
 
-Api End Points
+Api End Points <br />
 **api auth required API_KEY as key parameter and "user-token", is user id as header 
-API_KEY is Hardcore in .env file**
+API_KEY is Hardcore in .env file** <br />
 
-POST: Add New book
+** POST: Add New book <br />
 http://localhost:8000/api/add-book?key=API_KEY
 
-GET: Fecth all books details 
+** GET: Fecth all books details <br />
 http://localhost:8000/api/all-books?key=API_KEY
 
-GET: Fecth One books details, 
-PUT: Update book, DELETE: Delete Book , End Point
+** GET: Fecth One books details, <br />
+** PUT: Update book, <br />
+** DELETE: Delete Book , End Point <br />
 http://localhost:8000/api/all-books/bookId?key=API_KEY
-
-Thank You
+<br />
+Thank You <br />
 Subhankar Sarkar
